@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.19.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DoneRightAddressAPI.DAL\DoneRightAddressAPI.DAL.csproj" />
     <ProjectReference Include="..\DoneRightAddressAPI.DTO\DoneRightAddressAPI.DTO.csproj" />
   </ItemGroup>
