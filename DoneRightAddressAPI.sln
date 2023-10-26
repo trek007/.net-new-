@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoneRightAddressAPI", "DoneRightAddressAPI\DoneRightAddressAPI.csproj", "{1EB7C6D9-DD34-4203-A7E7-31ACFF359BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoneRightAddressAPI", "DoneRightAddressAPI\DoneRightAddressAPI.csproj", "{1EB7C6D9-DD34-4203-A7E7-31ACFF359BE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoneRightAddressAPI.DAL", "DoneRightAddressAPI.DAL\DoneRightAddressAPI.DAL.csproj", "{5254DEFA-3FEE-4133-9547-DD7D55D46083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoneRightAddressAPI.DAL", "DoneRightAddressAPI.DAL\DoneRightAddressAPI.DAL.csproj", "{5254DEFA-3FEE-4133-9547-DD7D55D46083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoneRightAddressAPI.BLL", "DoneRightAddressAPI.BLL\DoneRightAddressAPI.BLL.csproj", "{ACCF6686-3B96-41BB-8E07-8CA6B64F721B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoneRightAddressAPI.BLL", "DoneRightAddressAPI.BLL\DoneRightAddressAPI.BLL.csproj", "{ACCF6686-3B96-41BB-8E07-8CA6B64F721B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoneRightAddressAPI.DTO", "DoneRightAddressAPI.DTO\DoneRightAddressAPI.DTO.csproj", "{DC770907-6E3B-46B6-A700-D85C4DC5420B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoneRightAddressAPI.DTO", "DoneRightAddressAPI.DTO\DoneRightAddressAPI.DTO.csproj", "{DC770907-6E3B-46B6-A700-D85C4DC5420B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
