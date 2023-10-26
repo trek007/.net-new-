@@ -1,0 +1,51 @@
+1/9/2023 5:18:33 PM
+ Message: Procedure or function 'PTAX_GetAddressSuffolk' expects parameter '@Number', which was not supplied.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DoneRightAddressAPI.DAL.DBInteractions.ExecuteProcedures.ReturnDataTable(String storedProcedureName, String[] parameterNames, String[] parameterValues) in D:\Vixit_Data\GlobalPCM.API\DoneRightAddressAPI\DoneRightAddressAPI.DAL\DBInteractions\ExecuteProcedures.cs:line 89
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataforallRegionsSuffolkPTAX(String Number, String Street, String Zip) in D:\Vixit_Data\GlobalPCM.API\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 42
+1/9/2023 5:21:34 PM
+ Message: Procedure or function 'PTAX_GetAddressSuffolk' expects parameter '@Number', which was not supplied.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DoneRightAddressAPI.DAL.DBInteractions.ExecuteProcedures.ReturnDataTable(String storedProcedureName, String[] parameterNames, String[] parameterValues) in D:\Vixit_Data\GlobalPCM.API\DoneRightAddressAPI\DoneRightAddressAPI.DAL\DBInteractions\ExecuteProcedures.cs:line 89
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataforallRegionsSuffolkPTAX(String Number, String Street, String Zip) in D:\Vixit_Data\GlobalPCM.API\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 42
+1/9/2023 5:22:29 PM
+ Message: Procedure or function 'PTAX_GetAddressSuffolk' expects parameter '@Number', which was not supplied.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DoneRightAddressAPI.DAL.DBInteractions.ExecuteProcedures.ReturnDataTable(String storedProcedureName, String[] parameterNames, String[] parameterValues) in D:\Vixit_Data\GlobalPCM.API\DoneRightAddressAPI\DoneRightAddressAPI.DAL\DBInteractions\ExecuteProcedures.cs:line 89
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataforallRegionsSuffolkPTAX(String Number, String Street, String Zip) in D:\Vixit_Data\GlobalPCM.API\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 42

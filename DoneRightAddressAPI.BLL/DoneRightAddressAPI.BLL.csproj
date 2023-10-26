@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DoneRightAddressAPI.DAL\DoneRightAddressAPI.DAL.csproj" />
+    <ProjectReference Include="..\DoneRightAddressAPI.DTO\DoneRightAddressAPI.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

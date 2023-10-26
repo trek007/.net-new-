@@ -1,0 +1,9 @@
+1/11/2023 8:20:36 PM
+ Message: Column 'ParID' does not belong to table .
+ Source Project: System.Data.Common
+ Stack Trace: at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.<>c.<GetNassauApnDetailsForAuthDocs>b__4_0(DataRow row) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 119
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetNassauApnDetailsForAuthDocs(String apn) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 118

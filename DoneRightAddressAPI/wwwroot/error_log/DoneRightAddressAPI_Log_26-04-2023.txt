@@ -1,0 +1,25 @@
+4/26/2023 4:48:17 PM
+ Message: Incorrect syntax near ''.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataForNassauRegion(String Number, String Street, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 102
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataFromSearchAddress(String County, String Address, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 56
+4/26/2023 6:25:58 PM
+ Message: Incorrect syntax near ''.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataForNassauRegion(String Number, String Street, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 102
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataFromSearchAddress(String County, String Address, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 56
+4/26/2023 6:26:06 PM
+ Message: Incorrect syntax near ''.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataForNassauRegion(String Number, String Street, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 102
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataFromSearchAddress(String County, String Address, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 56
+4/26/2023 6:26:54 PM
+ Message: Incorrect syntax near ''.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataForNassauRegion(String Number, String Street, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 102
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataFromSearchAddress(String County, String Address, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 56
+4/26/2023 6:31:08 PM
+ Message: Procedure or function 'GetAddressNassau' expects parameter '@Zip', which was not supplied.
+ Source Project: Core .Net SqlClient Data Provider
+ Stack Trace: at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataForNassauRegion(String Number, String Street, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 102
+   at DoneRightAddressAPI.DAL.Data_Models.SearchAddress.GetDataFromSearchAddress(String County, String Address, String Zip) in D:\Anuj-Data\HarjinderSir\ERIK\DoneRightAddressAPI\DoneRightAddressAPI.DAL\Data_Models\SearchAddress.cs:line 56

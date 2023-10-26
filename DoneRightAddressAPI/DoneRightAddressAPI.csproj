@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageProjectUrl>\</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\error_log\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="MySql.Data" Version="8.0.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DoneRightAddressAPI.BLL\DoneRightAddressAPI.BLL.csproj" />
+    <ProjectReference Include="..\DoneRightAddressAPI.DAL\DoneRightAddressAPI.DAL.csproj" />
+    <ProjectReference Include="..\DoneRightAddressAPI.DTO\DoneRightAddressAPI.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
